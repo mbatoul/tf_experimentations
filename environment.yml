@@ -1,0 +1,14 @@
+name: tf_exp
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - numpy
+  - scikit-learn
+  - jupyter
+  - matplotlib
+  - black
+  - tensorflow
+  - pip
+  - pip:
+      - tensorflow_decision_forests
